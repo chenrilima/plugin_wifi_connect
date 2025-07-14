@@ -16,6 +16,8 @@ This plugin is made with the latest / greatest direct connect to wifi options. I
 
 This should connect to an explicit SSID on iOS 11+ and Android 1+. To connect to an SSID matching a prefix it should work on iOS 13+ and Android 1+. On Android 1-29 it will scan nearby wifi networks and attempt to connect to the one matching the prefix (requiring ACCESS_FINE_LOCATIONS).
 
+Now, we have a New Version from this package.
+
 ## Getting Started
 
 Ensure you have the permissions set up and request them appropriately for each platform. This plugin's goal isn't to force permissions. This means if you have a different target, you don't need more permissions than you would otherwise be forced to require.
