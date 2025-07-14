@@ -2,7 +2,7 @@
 
 This package is a continuation of the package below:
 
-https://pub.dev/packages/flutter_wifi_connect
+https://pub.dev/packages/flutter_wifi_connect, now here: https://pub.dev/packages/plugin_wifi_connect
 
 We will take care, so that the necessary maintenance can always occur, as well as new features,
 
