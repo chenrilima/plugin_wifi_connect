@@ -112,7 +112,3 @@ Licenciado sob BSD‑3 Clause — consulte o arquivo LICENSE.
   •	Suporte a Android & iOS mais antigos?
   •	Conexão segura com WPA/WPA2 Enterprise?
   •	Integração com notificações de mudança de rede?
-
-</details>
-
----
