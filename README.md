@@ -116,12 +116,3 @@ Licenciado sob BSD‑3 Clause — consulte o arquivo LICENSE.
 </details>
 
 ---
-
-### 🧠 Comando Git para subir o novo README.md
-
-Depois de salvar, no terminal do VS Code, execute:
-
-```bash
-git add README.md
-git commit -m "docs: atualiza README com novo layout e instruções"
-git push origin main
