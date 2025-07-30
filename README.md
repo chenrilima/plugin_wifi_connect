@@ -1,12 +1,20 @@
 # 🚀 plugin_wifi_connect
 
+**Flutter connector for Wi-Fi devices**  
+Low-dependency plugin to simplify automatic connection to devices via SSID or SSID prefix. Compatible with **Android 10+ (API 29+)** and **iOS 11+**.
+
 **Conector Flutter para dispositivos Wi‑Fi**  
 Plugin com baixa dependência para facilitar a conexão automática a dispositivos via SSID ou prefixo de SSID. Compatível com **Android 10+ (API 29+)** e **iOS 11+**.
 
 ---
 
-## 🎯 Funcionalidades
+## 🎯 Features / Funcionalidades
 
+- ✅ Connects to an exact SSID (iOS 11+, Android).
+- 🔍 Connects to SSIDs that match a prefix (iOS 13+, Android).
+- 📡 Compatible with IoT devices that use unique SSIDs.
+- ⚙️ Efficient strategy: scans and connects by prefix on Android (requires `ACCESS_FINE_LOCATION`).
+---
 - ✅ Conecta-se a um SSID exato (iOS 11+, Android).
 - 🔍 Conecta-se a SSIDs que combinam um prefixo (iOS 13+, Android).
 - 📡 Compatível com dispositivos IoT que usam SSIDs únicos.
@@ -14,9 +22,11 @@ Plugin com baixa dependência para facilitar a conexão automática a dispositiv
 
 ---
 
-## 📦 Instalação
+## 📦 Installation / Instalação
 
-No `pubspec.yaml`, adicione:
+Add to `pubspec.yaml`:
+
+Adicione ao `pubspec.yaml`:
 
 ```yaml
 dependencies:
@@ -26,7 +36,7 @@ dependencies:
       ref: main
 ```
 
-Depois, execute:
+Then run / Depois execute:
 
 ```bash
 flutter pub get
@@ -34,22 +44,22 @@ flutter pub get
 
 ---
 
-## 🔧 Uso
+## 🔧 Usage / Uso
 
 ```dart
 import 'package:plugin_wifi_connect/plugin_wifi_connect.dart';
 
 void main() async {
-  // Conexão direta
+  // Direct connection / Conexão direta
   bool ok = await PluginWifiConnect.connectToSsid(
     ssid: 'MeuDispositivoWiFi',
     password: 'senha123',
   );
 
-  // Conexão por prefixo
+  // Prefix connection / Conexão por prefixo
   bool okPrefix = await PluginWifiConnect.connectToSsidPrefix(
     prefix: 'IoTDevice_',
     password: 'senhaPadrao',
   );
 
-  print('Conexão SSID direta: 
+  print('Direct SSID connection: 
