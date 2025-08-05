@@ -1,5 +1,4 @@
 # 🚀 plugin_wifi_connect
-
 **Flutter connector for Wi-Fi devices**  
 Low-dependency plugin to simplify automatic connection to devices via SSID or SSID prefix. Compatible with **Android 10+ (API 29+)** and **iOS 11+**.
 
@@ -8,7 +7,13 @@ Plugin com baixa dependência para facilitar a conexão automática a dispositiv
 
 ---
 
+##  💻 Pub Dev: 
+https://pub.dev/packages/plugin_wifi_connect
+
+---
+
 ## 🎯 Features / Funcionalidades
+
 
 - ✅ Connects to an exact SSID (iOS 11+, Android).
 - 🔍 Connects to SSIDs that match a prefix (iOS 13+, Android).
